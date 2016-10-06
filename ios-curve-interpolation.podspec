@@ -10,6 +10,6 @@ Pod::Spec.new do |spec|
     spec.source = { :git => 'https://github.com/ojingolabs/wandkunst.git'}
     spec.requires_arc = true
     spec.platforms = { :ios => '8.0' }
-    spec.source_files = [ 'Curve Interpolation/lib/*.{h,m}' ]
+    spec.source_files = [ 'CGPointExtension.{h,m}', 'UIBezierPath+Interpolation.{h,m}' ]
 
 end
